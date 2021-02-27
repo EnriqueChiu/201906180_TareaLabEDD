@@ -1,0 +1,10 @@
+
+----------------Errores---------------------
+1. Esperaba ver mejor la grafica
+
+----------------Comentarios-----------------
+1 Muy limpio el codigo y facil de entender
+
+Presentacion    25/50
+Recorrido	50/50
+Total 		100 

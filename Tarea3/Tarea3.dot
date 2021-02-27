@@ -1,0 +1,19 @@
+digraph G{
+node[shape=record];
+node0xc000054050[label="Marvin Martinez | Apodo:Marvin25ronal | Fav:Jugar apex"];
+node0xc0000540a0[label="Yaiza Pineda | Apodo:Bambi | Fav:Patinar"];
+node0xc000054050->node0xc0000540a0;
+node0xc0000540a0->node0xc000054050;
+node0xc0000540f0[label="Jonathan Lopez | Apodo:Pancho | Fav:Comer"];
+node0xc0000540a0->node0xc0000540f0;
+node0xc0000540f0->node0xc0000540a0;
+node0xc000054140[label="usuario1 bla | Apodo:bla | Fav:Jugar apex"];
+node0xc0000540f0->node0xc000054140;
+node0xc000054140->node0xc0000540f0;
+node0xc000054190[label="usuario2 bla | Apodo:bla | Fav:Jugar apex"];
+node0xc000054140->node0xc000054190;
+node0xc000054190->node0xc000054140;
+node0xc0000541e0[label="usuario3 sale edd | Apodo:vamos con todo | Fav:100 en la fase 1"];
+node0xc000054190->node0xc0000541e0;
+node0xc0000541e0->node0xc000054190;
+}
