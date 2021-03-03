@@ -1,0 +1,41 @@
+
+
+----------------Errores---------------------
+1. En el preorden inicias bien imprimiendo la raiz y luego te vas al izquierdo y tendrias que imprimir la nueva raiz
+que seria el 11, luego al izquierdo y de nuevo imprimir la nueva raiz.
+El resultado seria 19-11-1-0-5-17-16-14-12-18-27-25-20-21-26-29-28-30
+Lo que pasa es que siempre mandas a llamar al metodo imprimir hoja y ese lo que hace siempre es meterce todo izquierda 
+imprimir raiz y luego meterce a raiz
+
+2. Para el postorden esta igual, mandas a llamar al mismo metodo
+y tendria que ser todo izquierdo, todo derecho y luego imprimir la raiz
+El resultado seria 0-5-1-12-14-16-18-17-11-21-20-26-25-28-30-29-27-19
+
+----------------Comentarios-----------------
+1. Muy bien el metodo de graficar, asi esperaba los demas metodos de recorridos
+//Preorden
+if(raiz!=nil){
+    imprimir(raiz)
+    prorden(raiz.izquierdo)
+    preorden(raiz.derecho)
+}
+//Inorden
+if(raiz!=nil){
+    prorden(raiz.izquierdo)
+    imprimir(raiz)
+    preorden(raiz.derecho)
+}
+//posorden
+if(raiz!=nil){
+    prorden(raiz.izquierdo)
+    preorden(raiz.derecho)
+    imprimir(raiz)
+}
+
+
+
+Preorden    10/30
+Inorden     30/30
+PostOrden   10/30
+Arbol       10/10
+Total 		60
