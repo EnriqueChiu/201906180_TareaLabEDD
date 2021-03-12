@@ -2,4 +2,4 @@ Ya hice la modificaciones para el logo de la empresa.
 
 ya tengo lo de cargar Invenarios
 
-Ahora estoy haciendo la cargar de pedidos.
+Ahora estoy haciendo la cargar de pedidos. -> Ya termine la carga de pedidos
