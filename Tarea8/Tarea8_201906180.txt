@@ -1,0 +1,3 @@
+Ya tengo casi el Backend terminado solo me falta algunas cosas.
+
+En Frontend solo tengo lo de crear nuevo Usuario.
